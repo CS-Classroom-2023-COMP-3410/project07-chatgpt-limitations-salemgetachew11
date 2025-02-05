@@ -1,3 +1,32 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5dc; /* Beige background */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  overflow: hidden; /* Prevents scrolling */
+}
+
+/* Updated Game Container for Dynamic Centering and Responsiveness */
+.game-container {
+  width: 80vw; /* Responsive width based on viewport */
+  max-width: 600px; /* Max width */
+  max-height: 80vh; /* Prevents overflow vertically */
+  background: #fff;
+  border: 5px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column; /* Organizes children elements vertically */
+  justify-content: space-around; /* Distributes spacing */
+  align-items: center; /* Aligns items centrally */
+}
+
 /* 🎭 Unique Dance Animations 🎭 */
 @keyframes pivotDance {
   0%, 100% { transform: rotate(0deg); }
